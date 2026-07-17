@@ -1,0 +1,10 @@
+{
+  "recognition_error_below": 75,
+  "recognition_warning_min": 75,
+  "recognition_warning_max": 79,
+  "speed_warning_below": 20,
+  "distance_error_below_km": 5,
+  "duration_error_below_hours": 0.1667,
+  "evening_window_start": "18:00",
+  "evening_window_end": "00:00"
+}

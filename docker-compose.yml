@@ -1,0 +1,9 @@
+services:
+  validator:
+    build: .
+    container_name: dat-validator
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
